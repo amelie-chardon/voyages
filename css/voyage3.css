@@ -1,0 +1,266 @@
+/*GENERAL*/
+
+body{
+    background:url("../img/voyage3/background.jpg");
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    background:url("../img/voyage3/drapeau.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+footer{
+    background-color: rgba(56, 56, 59, 0.8);
+}
+
+
+.page{
+    display: flex;
+    flex-direction: row;
+}
+
+/*COLONNE droite*/
+
+.colonne_droite{
+    display: flex;
+    flex-direction: column;
+    width: 25vw;
+    height: 1100px;
+    margin-left:0;
+    margin-right:10px;
+    margin-top:60px;
+    margin-bottom:80px;
+    justify-content: space-between;
+    justify-items: stretch;
+    align-items: stretch;
+    align-content: space-between;
+}
+
+.carte_identite{
+    display: flex;
+    flex-direction: column;
+    background:url("../img/voyage3/carte_postale.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 230px;
+    height:150px;
+    background-position: center;
+    -webkit-transform:rotate(10deg); 
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg); 
+    -ms-transform:rotate(10deg); 
+    transform:rotate(10deg);
+    text-align: center;
+}
+
+.carte_identite:hover{
+    width: 530px;
+    height:360px;
+    justify-content: left;   
+    justify-items: left;
+    -webkit-transform:translate(-50%,0%); 
+    -moz-transform:translate(-50%,0%);
+    -o-transform:translate(-50%,0%); 
+    -ms-transform:translate(-50%,0%); 
+    transform:translate(-50%,0%);
+    -webkit-transition:-webkit-transform .5s; // Chrome Safari
+    -moz-transition:-moz-transform .5s;       // Mozilla
+    -o-transition:-o-transform .5s;           // Opéra
+    -ms-transition:-ms-transform .5s;         // IE
+    transition:transform .5s;
+    zoom:1.1;
+    align-content:flex-start;
+    align-items: flex-start;
+    padding-left: 15px;
+}
+
+.carte_identite article{
+    display:flex;
+    flex-direction: column;
+    padding:30px;
+    width: 530px;
+    height:360px;
+    margin:auto;
+}
+
+.carte_id_descr {
+    display: flex;
+    flex-direction: column;
+    opacity:0;
+}
+
+.carte_id_descr p{
+    margin:5px;
+}
+
+.carte_identite:hover .carte_id_descr{
+    opacity:1;
+    text-align: left;
+}
+
+.localisation{
+    display: flex;
+    background:url("../img/voyage3/localisation.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 230px;
+    height:150px;
+    background-position: left;
+    align-content: center;
+    justify-content: center;
+    -webkit-transform:rotate(10deg); 
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg); 
+    -ms-transform:rotate(10deg); 
+    transform:rotate(10deg);
+}
+
+.localisation:hover{
+    width: 530px;
+    height:360px;
+    background-size: contain;
+    background-position: center;
+    justify-content: center;
+    -webkit-transform:translate(-50%,0%); 
+    -moz-transform:translate(-50%,0%);
+    -o-transform:translate(-50%,0%); 
+    -ms-transform:translate(-50%,0%); 
+    transform:translate(-50%,0%);
+    -webkit-transition:-webkit-transform .5s; // Chrome Safari
+    -moz-transition:-moz-transform .5s;       // Mozilla
+    -o-transition:-o-transform .5s;           // Opéra
+    -ms-transition:-ms-transform .5s;         // IE
+    transition:transform .5s;
+    zoom:1.1;
+}
+
+.carte_regions{
+    display: flex;
+    background:url("../img/voyage3/carte_regions.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 230px;
+    height:150px;
+    background-position: left;
+    align-content: center;
+    justify-content: center;
+    -webkit-transform:rotate(10deg); 
+    -moz-transform:rotate(10deg);
+    -o-transform:rotate(10deg); 
+    -ms-transform:rotate(10deg); 
+    transform:rotate(10deg);
+}
+
+.carte_regions:hover{
+    width: 530px;
+    height:360px;
+    flex-grow: 1;
+    margin-left:60px; 
+    background-size: contain;
+    background-position: center;
+    justify-content: center;
+    -webkit-transform:translate(-50%,0%); 
+    -moz-transform:translate(-50%,0%);
+    -o-transform:translate(-50%,0%); 
+    -ms-transform:translate(-50%,0%); 
+    transform:translate(-50%,0%);
+    -webkit-transition:-webkit-transform .5s; // Chrome Safari
+    -moz-transition:-moz-transform .5s;       // Mozilla
+    -o-transition:-o-transform .5s;           // Opéra
+    -ms-transition:-ms-transform .5s;         // IE
+    transition:transform .5s;
+}
+
+/*PARTIE GAUCHE*/
+
+.principal{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    margin: 60px;
+    flex-grow:1;
+    background-color: rgba(245, 234, 205, 0.7);
+}
+
+h1{
+    font-size:2em;
+    margin-top:0;
+    padding:20px;
+    text-align: center;
+}
+
+.principal h2{
+    color:red;
+    font-size:30px;
+}
+
+.bonnes_raisons{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    color:black;
+    align-items: center;
+
+}
+
+.coups_coeur{
+    width: 100%;
+    position: relative;
+    text-align: center;
+    padding-left:30px;
+}
+  
+  .description{
+      font-size:18px;
+      width:300px;
+      text-align:left;
+  }
+
+  
+  .image img
+  {
+      border-radius: 15%;
+      max-height:40vh;
+  }
+
+/*FORMULAIRE*/
+
+.formulaire{
+    border:1px;
+    background-color: rgba(245, 234, 205, 0.7);
+    margin:10px;;
+
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.formulaire input[type=text],input[type=email], textarea{
+    border: 1px solid #000000;
+    padding: 1vh;
+    margin: 1vh 0;
+    color: #000000;
+}
+
+#button{
+    padding: 1vw;
+    margin: 1vh 0 0.5vh 0;
+    border-radius: 8px;
+    background-color:blue;
+    color: #FFFFFF;
+    cursor: pointer;
+}

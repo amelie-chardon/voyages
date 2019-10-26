@@ -1,0 +1,322 @@
+body {
+	background-image: url(../img/backgroundjapan.png);
+	background-repeat: repeat;
+	height: 100%;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+@font-face {
+	font-family: "Playfair Display";
+	font-style: normal;
+	font-weight: normal;
+	src: local('Playfair Display'), url('../font/PlayfairDisplay-Italic.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Montserrat";
+	font-style: normal;
+	font-weight: normal;
+	src: local('Montserrat'), url('../font/Montserrat-Bold.ttf') format('truetype');
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: normal;
+	src: local('Raleway'), url('../font/Raleway-Regular.ttf') format('truetype');
+}
+
+header {
+	background-color: rgb(26, 26, 26, 80%);
+	width: 100%;
+}
+
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	padding-top: 20px;
+}
+
+#containermid6 {
+	background-color: white;
+	width: 1000px;
+	border-radius: 20px;
+}
+
+#imgjapon {
+	height: 400px;
+	width: 1000px;
+	background-image: url(../img/imgjapon.jpg);
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+}
+
+#imgjapong {
+	height: 200px;
+	width: 200px;
+/*	background-color: orange;*/
+}
+
+@-webkit-keyframes fleurrotation {
+  from {
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+@keyframes fleurrotation {
+  from {
+    -ms-transform: rotate(0deg);
+    -moz-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -ms-transform: rotate(360deg);
+    -moz-transform: rotate(360deg);
+    -webkit-transform: rotate(360deg);
+    -o-transform: rotate(360deg);
+    transform: rotate(360deg);
+  }
+}
+.fleurrotation {
+  -webkit-animation: fleurrotation 6s linear infinite;
+  -moz-animation: fleurrotation 6s linear infinite;
+  -o-animation: fleurrotation 6s linear infinite;
+  animation: fleurrotation 6s linear infinite;
+}
+
+#imgjaponc {
+	height: 300px;
+	width: 500px;
+/*	background-color: red;*/
+}
+
+#imgjapond {
+	height: 300px;
+	width: 200px;
+/*	background-color: yellow;*/
+}
+
+.subtitlearticle {
+	font-family: "Playfair Display";
+	font-size: 20px;
+	text-align: center;
+	padding-bottom: 15px;
+}
+
+#cpara1 {
+	height: 300px;
+/*	background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.dividerpara {
+	letter-spacing: -3px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.titlearticle {
+	font-family: "Montserrat", sans-serif;
+	font-size: 30px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.textarticle {
+	font-family: "Raleway";
+	text-align: center;
+}
+
+#bloc2 {
+	height: 600px;
+	background-color: #262626;
+	display: flex;
+	flex-direction: row;
+}
+
+#paysagejapon {
+	height: 600px;
+	width: 50%;
+}
+
+#cpara2 {
+	height: 600px;
+/*	background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#tokyo {
+	height: 500px;
+	width: 1000px;
+}
+
+#bloc3 {
+	background-color: pink;
+	height: 780px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+#cpara3 {
+	height: 600px;
+/*	background-color: yellow;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+#cpara4 {
+	display: flex;
+	flex-direction: column;
+	color: #262626;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+/*	background-color: yellow;*/
+}
+
+table, td {
+	border: 2px solid black;
+	border-collapse: collapse;
+	font-family: "Raleway";
+}
+
+.tablelieu {
+	height: 220px;
+	width: 400px;
+	text-align: center;
+}
+
+.tabledesc {
+	height: 220px;
+	width: 600px;
+	padding-left: 10px;
+}
+
+#thlieu {
+	height: 40px;
+	width: 400px;
+	text-align: center;
+}
+
+#thdesc {
+	height: 40px;
+	width: 660px;
+	text-align: center;
+}
+
+#photolieu {
+	height: 200px;
+	width: 300px;
+}
+
+#tabletitle {
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#cpara5 {
+	display: flex;
+	flex-direction: column;
+	color: white;
+	padding-left: 40px;
+	padding-right: 40px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	background-color: #262626;
+}
+
+.liarticle {
+	font-family: "Raleway";
+	text-align: left;
+}
+
+#ccontact {
+	display: flex;
+	flex-direction: row;
+	height: 300px;
+/*	background-color: blue;*/
+	align-items: center;
+}
+
+#cauteur {
+/*	background-color: orange;*/
+	height: 100%;
+	width: 230px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+#cformulaire {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	justify-content: center;
+	padding-left: 40px;
+	font-family: "Raleway";
+	font-size: 20px;
+	font-weight: bold;
+}
+
+#auteur {
+	font-family: "Raleway";
+	font-size: 24px;
+	font-weight: bold;
+}
+
+#nicophoto {
+	border-radius: 50%;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#nomnico {
+	font-family: "Raleway";
+	font-size: 18px;
+}
+
+#message {
+	height: 140px;
+	width: 500px;
+}
+
+#femail {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+footer {
+	width: 100%;
+	margin-top: 40px;
+}

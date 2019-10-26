@@ -1,0 +1,193 @@
+/*GENERAL*/
+
+body{
+    background:url("../img/voyage4/background.jpg");
+    background-size: cover;
+}
+
+main{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom:30px;
+    margin-top:30px;
+}
+
+header{
+    background:url("../img/voyage4/drapeau.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+
+footer{
+    background-color: rgba(56, 56, 59, 0.8);
+}
+
+.principal{
+    display: flex;
+    background:url("../img/voyage4/carnet.png");opacity:.75;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-items: stretch;
+    align-content: center;
+    margin:15px;
+    padding:20px;
+    margin-bottom:25px;
+    height:120vh;
+}
+
+h1{
+    text-align: center;
+}
+
+/*PAGE GAUCHE*/
+
+.page_gauche{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    width: 40%;
+    padding:20px;
+    padding-right:45px;
+}
+
+
+
+#drapeau{
+    float: right;
+    width: 150px;
+    margin:5px;
+}
+
+h2{
+    display: flex;
+    align-items: top;
+    align-content: flex-start;
+    justify-content: space-between;
+}
+
+.principal p{
+    margin:10px;
+    margin-left:0;
+    font-size:18px;
+}
+
+.cartes{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.cartes img{
+    width: 200px;
+    filter: grayscale(80%); 
+    max-height:120px;  
+    margin:5px;
+}
+
+#localisation{
+    width: 150px;
+    filter: grayscale(80%);
+}
+
+#carte_regions{
+    width: 150px;
+    filter: grayscale(80%);
+    margin-bottom:200px;
+}
+
+#localisation:hover{
+    transform-origin:bottom;
+    zoom:3;
+    filter: grayscale(0%);
+}
+
+#carte_regions:hover{
+    zoom:3;
+    filter: grayscale(0%);  
+}
+
+/*PAGE DROITE*/
+
+.page_droite{
+    display: flex;
+    flex-direction: column;
+    flex-grow:1;
+    flex-basis: fill;
+    width: 40%;
+    padding:20px;
+    padding-left:45px;
+}
+
+.coups_coeur{
+  position: relative;
+  vertical-align: center;
+  box-sizing: border-box;
+  text-align: center;
+  justify-content:center;
+  justify-items:right;
+  border-radius: 8px;
+  overflow: hidden;
+  border-spacing: 15px;
+   }
+
+.description{
+	width:32vw;
+}
+
+.image{
+    width:30vw;
+}
+
+.image img:hover{
+    opacity:1;
+    filter: grayscale(0);
+    zoom: 1.3;
+}
+
+td
+{
+	padding:2px;
+	padding:8px;
+	border-radius: 25px;
+}
+
+.image img
+{
+    border-radius: 15%;
+	max-width: 30vw;
+	max-height:30vh;
+    opacity:0.6;
+    filter: grayscale(0.8);
+}
+
+/*FORMULAIRE*/
+
+.formulaire{
+    border:1px;
+}
+
+.formulaire form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.formulaire input[type=text],input[type=email], textarea{
+    border: 1px solid #000000;
+    padding: 1vh;
+    margin: 1vh 0;
+    color: #000000;
+}
+
+#button{
+    padding: 1vw;
+    margin: 1vh 0 0.5vh 0;
+    border-radius: 8px;
+    background-color:green;
+    color: #FFFFFF;
+    cursor: pointer;
+}

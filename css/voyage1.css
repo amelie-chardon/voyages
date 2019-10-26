@@ -1,0 +1,67 @@
+html {
+	
+    background-image: url(../img/voyage1/iledegoree.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+	font-family: "Open Sans";
+	font-style: normal;
+	font-weight: normal;
+	src: local('Open Sans'), url('../font/OpenSans-Regular.ttf') format('truetype');
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+	color:#000000;
+	
+}
+/*Divers*//*Red*/
+
+.color1{
+	color:#035714;
+}
+
+.color2{
+	color:#E9F342;
+}
+
+.color3{
+	color:#E00000;
+}
+
+.h1,h2{
+	text-align:center;
+	color:Black;
+}
+.spacer{
+    width: 100%;
+    height: 3rem;
+}
+
+.masterMind{
+	background-color:transparent;
+	margin:0;
+	padding:0;
+	text-align:center;
+	color:;
+	
+}
+
+.masterMind2{
+	background-color:transparent;
+	margin:0;
+	padding:0;
+	text-align:center,justify;
+	color:;
+	
+}
+	
+.photoben{
+	width:1200px;
+	height:auto;
+}
+
